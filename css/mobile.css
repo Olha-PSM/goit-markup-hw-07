@@ -1,0 +1,58 @@
+.container {
+
+  padding-left: 16px;
+  padding-right: 16px;
+
+
+}
+
+
+.header-container {
+  position: relative;
+  display: flex;
+  border-bottom: 1px solid #E7E9FC;
+  align-items: center;
+  justify-content: space-between;
+  
+  padding-top: 25px;
+  padding-bottom: 24px;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  
+}
+@media screen and (min-width: 480px) {
+    .container {
+        max-width: 428;
+        margin-left: auto;
+        margin-right: auto;
+      }
+       
+}
+/* від 0 до 767 */
+@media screen and (max-width:767px) {
+  .nav-link {
+      display: none;
+    }
+  
+    .nav-item {
+      display: none;
+    }
+  
+    .address-link {
+      display: none;
+    }
+    .mob-menu-tel-link {
+          font-size: 36px;
+  
+    }
+   
+ } 
+@media screen and (min-device-pixel-ratio: 2) and (max-width:767px),
+screen and (min-resolution: 192dpi) and (max-width:767px),
+screen and (min-resolution: 2dppx) and (max-width:767px) {
+
+  .hero {
+    background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)) url(../images/mobile-bg@2x.jpg);
+  }
+
+}
+

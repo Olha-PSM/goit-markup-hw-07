@@ -1,0 +1,109 @@
+ @media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding-bottom: 0;
+        
+        
+    }
+
+}
+@media screen and (min-width:768px) {
+    .mobile-menu-open {
+        display: none;
+
+    }
+           .header-logo {
+               margin-right: 120px;
+               color: var(--second-title-color);
+    
+           }
+    
+                .header-nav {
+                    display: flex;
+                    align-items: center;
+                    margin-right: auto;
+                }
+        
+                .nav-list {
+                    display: flex;
+                    gap: 40px;
+                }
+            
+        .nav-link {
+            display: block;
+            position: relative;
+            padding-top: 24px;
+            padding-bottom: 24px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            transition: var(--transition-hover-focus);
+            color: var(--second-title-color);
+            transition: color var(--transition-hover-focus);
+        }
+    
+        .nav-link.current::after {
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 4px;
+            left: 0;
+            bottom: 0;
+    
+            border-radius: 2px;
+            background-color: var(--accent-color);
+    
+        }
+    
+        .nav-link:hover,
+        .nav-link:focus,
+        .nav-link.current {
+            color: var(--accent-color)
+        }
+    
+        .address-list {
+            
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+    
+        }
+    
+        .address-link {
+            display: block;
+            color: var(--title-text-color);
+            font-style: normal;
+            font-size: 12px;
+            line-height: 1.17;
+            letter-spacing: 0.04em;
+            transition: color var(--transition-hover-focus);
+    
+         }
+         }
+    
+        @media screen and (min-width:768px) {
+            .hero {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/tablet-bg.jpg);
+
+            }
+        @media screen and (min-device-pixel-ratio: 2) and (mix-width:768px),
+            screen and (min-resolution: 192dpi) and (mix-width:768px),
+            screen and (min-resolution: 2dppx) and (mix-width:768px) {
+         
+            .hero {
+                background-image: url(../images/tablet@2x.jpg);
+            }
+            
+        }
+      }
+    
+    
+               
+                
+    
+      
+                 
+    
+
+    
