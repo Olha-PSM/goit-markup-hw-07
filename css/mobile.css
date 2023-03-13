@@ -25,27 +25,103 @@
         margin-left: auto;
         margin-right: auto;
       }
-       
+        .team > .container {
+        max-width: 294px;
+       } 
 }
+
 /* від 0 до 767 */
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
   .nav-link {
-      display: none;
+    display: none;
+  }
+
+  .nav-item {
+    display: none;
+  }
+
+  .address-link {
+    display: none;
+  }
+  .footer >.container {
+    max-width: 428px;
+  }
+    .footer-container {
+     
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 72px;
+  
+  
     }
   
-    .nav-item {
-      display: none;
-    }
-  
-    .address-link {
-      display: none;
-    }
-    .mob-menu-tel-link {
-          font-size: 36px;
+    .footer-logo {
+      margin-right: auto;
+      margin-left: auto;
+      padding-bottom: 16px;
+      text-align: center;
   
     }
+  
+    .footer-text {
+      text-align: left;
+      font-weight: 400;
+      margin-top: 16px;
+      max-width: 264px;
+  
+      color: var(--footer-logo-color)
+    }
+  
+    .footer-media-text {
+      font-weight: 500;
+      margin-bottom: 16px;
+      text-align: center;
+  
+      color: #FFFFFF;
+    }
+  
+    .footer-media-list {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      margin-bottom: 72px;
+  
+    }
+        .footer-field {
+          width: 100%;
+    
+        }
+    
+        .footer-form {
+    
+          width: 100%;
+    
+        }
+    
+        .footer-input {
+          width: 100%;
+        }}
+        
+  
+
+
+@media screen and (max-width: 387px) {
+  .mob-menu-tel-link {
+    font-size: 32px;
+
+  }
+  .hero-title {
+    max-width: 320px;
+
+}
+
+
+}
+
+
+
    
- } 
 @media screen and (min-device-pixel-ratio: 2) and (max-width:767px),
 screen and (min-resolution: 192dpi) and (max-width:767px),
 screen and (min-resolution: 2dppx) and (max-width:767px) {
