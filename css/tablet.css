@@ -94,10 +94,17 @@ gap: 12px;
     gap: 24p;
 } 
 .footer-logo {
+    margin-bottom: 72px;
+    
     text-align: left;
 }
+
 .footer-media-text {
     text-align: left;
+    font-size: 16px;
+     line-height: 1.5;       
+     letter-spacing: 0.02em;
+     color: #FFFFFF;
 }
 
 .footer-field {
@@ -110,14 +117,23 @@ gap: 12px;
   }
 .footer-input {
     width: 264px;
-    margin-right: 24px
+    margin-right: 24px;
     
   }
-  .footer-media {
-      display: flex;
-     
-}
+ .footer-media {
+     display: block;
+    margin: 0;
+  
 
+ }
+ .footer-media-list {
+     display: flex;
+     justify-content: center;
+     gap: 16px;
+     
+
+ }
+}
 
 
 

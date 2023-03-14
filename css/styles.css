@@ -127,7 +127,7 @@ p,h1,h2,h3,h4,h5,h6 {
 .header-nav {
    display: flex;
    align-items: center;
-   margin-right: auto;
+   
 }
 .nav-list {
    display: flex;
@@ -177,9 +177,7 @@ p,h1,h2,h3,h4,h5,h6 {
    }
   .address-link {
      display: block;
-     padding-top: 24px;
-     padding-bottom: 24px;
-
+    
      color: var(--title-text-color);
 
      font-style: normal;
@@ -717,11 +715,13 @@ p,h1,h2,h3,h4,h5,h6 {
 
  /* ----------FOOTER----------- */
 .footer {
-     padding-top: 100px;
-     padding-bottom: 100px;
+     padding-top: 96px;
+     padding-bottom: 96px;
      background-color: var(--second-title-color);
   }
- 
+  
+
+
 .footer-logo-link {
    font-family: 'Raleway', sans-serif;
    font-weight: 800;
@@ -739,11 +739,23 @@ p,h1,h2,h3,h4,h5,h6 {
    letter-spacing: 0.03em;
    color: var(--accent-color);
 }
+.footer-text {
+   margin-top: 17px;
+   max-width: 264px;
+   color: var(--footer-text-color);
+}
   .footer-media {
-     display: block;
-     margin: 0;
+   display: block;
+   
 
-  }
+  } 
+
+   .footer-media-text {
+   font-weight: 500;
+   margin-bottom: 16px;
+   text-align: center;
+} 
+
  .footer-media-item {
     width: 40px;
     height: 40px;
@@ -837,7 +849,7 @@ p,h1,h2,h3,h4,h5,h6 {
 }
 .subscribe-icon {
    fill:var(--main-title-color);
-}  
+}   
 
 
 /* ----------Modal----------- */

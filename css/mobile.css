@@ -19,16 +19,7 @@
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
   
 }
-@media screen and (min-width: 480px) {
-    .container {
-        max-width: 428;
-        margin-left: auto;
-        margin-right: auto;
-      }
-        .team > .container {
-        max-width: 294px;
-       } 
-}
+
 
 /* від 0 до 767 */
 @media screen and (max-width: 767px) {
@@ -66,28 +57,22 @@
   
     .footer-text {
       text-align: left;
-      font-weight: 400;
-      margin-top: 16px;
-      max-width: 264px;
-  
+      margin-top: 17px;
       color: var(--footer-logo-color)
     }
   
     .footer-media-text {
-      font-weight: 500;
-      margin-bottom: 16px;
-      text-align: center;
-  
+      
       color: #FFFFFF;
     }
   
     .footer-media-list {
       display: flex;
       justify-content: center;
-      gap: 16px;
-      margin-bottom: 72px;
-  
+     
     }
+  
+    
         .footer-field {
           width: 100%;
     
@@ -101,22 +86,40 @@
     
         .footer-input {
           width: 100%;
-        }}
+        }
         
-  
+      }
 
 
 @media screen and (max-width: 387px) {
   .mob-menu-tel-link {
-    font-size: 32px;
+    font-size: 27px;
 
   }
+  .mob-soc-list {
+    gap: 30px;}
+
   .hero-title {
-    max-width: 320px;
+    max-width: 320px;}
 
 }
 
 
+
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 428px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .team>.container {
+    max-width: 294px;
+  }
+}
+
+.header-nav {
+  margin-right: auto;
 }
 
 
