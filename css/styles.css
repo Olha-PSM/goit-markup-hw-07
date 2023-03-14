@@ -172,7 +172,7 @@ p,h1,h2,h3,h4,h5,h6 {
    
    .address-list {
     display: flex;
-    gap: 40px;
+    
    
    }
   .address-link {
