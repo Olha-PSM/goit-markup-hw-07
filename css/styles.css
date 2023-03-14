@@ -465,8 +465,7 @@ p,h1,h2,h3,h4,h5,h6 {
  .team {
    padding-top: 96px;
    padding-bottom: 72px;
-   padding-left: 92px;
-   padding-right: 92px;
+  
     background: var(--background-color);
  }
  .team-title {
