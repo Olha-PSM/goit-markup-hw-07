@@ -715,7 +715,7 @@ p,h1,h2,h3,h4,h5,h6 {
 
  /* ----------FOOTER----------- */
 .footer {
-     padding-top: 97px;
+     padding-top: 96px;
      padding-bottom: 96px;
      background-color: var(--second-title-color);
   }
@@ -744,19 +744,20 @@ p,h1,h2,h3,h4,h5,h6 {
    max-width: 264px;
    color: var(--footer-text-color);
 }
-  .footer-media {
+.footer-media {
    display: block;
-   
-
+ 
   } 
-
-   .footer-media-text {
+ .footer-media-list {
+  gap:24px;
+  }
+.footer-media-text {
    font-weight: 500;
    margin-bottom: 16px;
    text-align: center;
 } 
 
- .footer-media-item {
+.footer-media-item {
     width: 40px;
     height: 40px;
  }

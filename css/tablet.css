@@ -10,9 +10,12 @@
         line-height: 1.07;
         
     }
+    .header-container {
+    padding-top: 0px;
 
 }
-@media screen and (min-width:768px) {
+
+    
  .mobile-menu-open {
         display: none;
 
@@ -21,10 +24,11 @@
     margin-right: 120px;
 }
 
+
 .address-list {
 display: flex;
 flex-direction: column;
-gap: 12px;
+
  }
   .address-link {
    display: block;
@@ -64,7 +68,8 @@ gap: 12px;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 24px;
-    }
+   
+}
 .team-item {
     flex-basis: calc((100% - 24px) / 2);
         }
@@ -95,6 +100,7 @@ gap: 12px;
 } 
 .footer-logo {
     margin-bottom: 72px;
+    margin-right: 24px;
     text-align: left;
 }
 
@@ -117,7 +123,7 @@ gap: 12px;
 .footer-input {
     width: 264px;
     margin-right: 24px;
-    
+    margin-bottom: 0px;
   }
  .footer-media {
      display: block;
